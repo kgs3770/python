@@ -18,13 +18,12 @@ students = [
     "양다희",
     "이유진",
     "이주현",
-    "임서영",
+    #"임서영",
     "장윤서",
     "조중석",
-    "주현준",
     "최민혁",
     "최시언",
-    "황다인",
+    #"황다인",
     "황성진"
 ]
 
@@ -41,7 +40,7 @@ def create_teams_with_size(students, team_size):
 
 
 # 팀 인원 설정
-TEAM_SIZE = 4
+TEAM_SIZE = 2
 
 # 랜덤 팀 생성
 random_teams = create_teams_with_size(students, TEAM_SIZE)
